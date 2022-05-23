@@ -1,0 +1,19 @@
+.navBar {
+
+  background-color: #091336;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  width: 275px;
+  a {
+    color: #787d90;
+    font-size: 20px;
+  }
+  .activeLink {
+    color: red;
+  }
+  &_content {
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}

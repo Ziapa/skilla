@@ -1,0 +1,34 @@
+.item {
+  display: flex;
+  color: #9fafc0;
+  border-bottom: 1px #eaf0fa solid;
+  margin-left: 10px;
+
+  &_type {
+    width: 50px;
+  }
+
+  &_time {
+    width: 90px;
+  }
+
+  &_employee {
+    width: 130px;
+  }
+
+  &_call {
+    width: 325px;
+  }
+
+  &_source {
+    width: 215px;
+  }
+
+  &_grade {
+    width: 465px;
+  }
+
+  &_duration {
+    width: 125px;
+  }
+}
